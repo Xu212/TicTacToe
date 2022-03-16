@@ -1,0 +1,25 @@
+body{
+    display: grid;
+    grid-template-areas:"h h"
+                        "f f"
+                        "j al";
+}
+.elem{
+    width: 33%;
+    align-items: stretch;
+}
+#jatek{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    grid-area: j;
+}
+header{
+    grid-area: h;
+}
+form{
+    grid-area: f;
+}
+#allapot{
+    grid-area: al;
+}
